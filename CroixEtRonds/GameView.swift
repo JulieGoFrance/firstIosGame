@@ -10,6 +10,62 @@ import SwiftUI
 struct GameView: View {
     var body: some View {
         Text("game view   ")
+        
+        VStack {
+            
+            HStack {
+                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+                    Text("__")
+                }
+                .accessibilityIdentifier("a1")
+                
+                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+                    Text("__")
+                }
+                .accessibilityIdentifier("a2")
+                
+                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+                    Text("__")
+                }
+                .accessibilityIdentifier("a3")
+            }
+            
+            HStack {
+                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+                    Text("__")
+                }
+                .accessibilityIdentifier("b1")
+                
+                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+                    Text("__")
+                }
+                .accessibilityIdentifier("b2")
+                
+                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+                    Text("__")
+                }
+                .accessibilityIdentifier("b3")
+            }
+            HStack {
+                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+                    Text("__")
+                }
+                .accessibilityIdentifier("c1")
+                
+                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+                    Text("__")
+                }
+                .accessibilityIdentifier("c2")
+                
+                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+                    Text("__")
+                }
+                .accessibilityAddTraits([.isButton])
+                .accessibilityIdentifier("c3")
+                
+            }
+        }
+        
     }
 }
 
