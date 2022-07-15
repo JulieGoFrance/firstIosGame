@@ -8,25 +8,37 @@
 import SwiftUI
 
 struct IntroView: View {
-  //  @StateObject var viewModel = ViewModel()
+   
+    
+    let regles  = Constants.gameRules
+    let intro = Constants.introText
+    let start = Constants.StartJeu
+    let titre = Constants.TitreJeu
 
     var body: some View {
         NavigationView {
+          
             VStack(spacing: 30) {
-                ScrollView{
-                        Text("lesson.text")
+                Text(titre).font(Font.system(size:30, design: .serif))
+                Text(intro).font(Font.system(size:20, design: .serif))
+                HStack (spacing: 20){
+                    Spacer()
+                    VStack {
+                        ScrollView{Text(regles).font(Font.system(size:14, design: .serif))}
                     }
-                NavigationLink(destination: GameView()) {
-                    Text("Commencer le jeu")
-                   
+                    Spacer()
                 }
+                
+                NavigationLink(destination: GameView()) {
+                    Text(start).font(Font.system(size:20, design: .serif))}
                 Spacer()
                 Spacer()
-            }
-            .navigationTitle("Croix & Ronds")
+            }.navigationTitle(" ")
+          
             Spacer()
+                
         }
-        //.environmentObject(user)  \(user.score)
+       
     }
 }
 struct IntroView_Previews: PreviewProvider {
