@@ -12,29 +12,36 @@
         <!--View Controller-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
-                <viewController restorationIdentifier="Plateau" storyboardIdentifier="Plateau" id="Y6W-OH-hqX" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="main" id="Y6W-OH-hqX" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="KvP-MD-HeW">
-                                <rect key="frame" x="20" y="163" width="339" height="364"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="0.7912719104" colorSpace="custom" customColorSpace="sRGB"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="o2P-bu-6Ae">
+                                <rect key="frame" x="-17" y="331" width="448" height="301"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="o2P-bu-6Ae" firstAttribute="width" secondItem="5EZ-qb-Rvc" secondAttribute="height" multiplier="1:2" id="Tmw-gE-FKn"/>
+                            <constraint firstItem="o2P-bu-6Ae" firstAttribute="width" secondItem="5EZ-qb-Rvc" secondAttribute="width" id="sts-NP-xaV"/>
+                            <constraint firstItem="o2P-bu-6Ae" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="wgV-5z-GOo"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="44.927536231884062" y="64.955357142857139"/>
+            <point key="canvasLocation" x="8.6956521739130448" y="32.8125"/>
         </scene>
     </scenes>
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

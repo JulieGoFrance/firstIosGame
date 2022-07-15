@@ -15,6 +15,7 @@
 		CE2C94042881B3A700BCD4CF /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2C94032881B3A700BCD4CF /* GameView.swift */; };
 		CE2C94062881B72200BCD4CF /* PermanentValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2C94052881B72200BCD4CF /* PermanentValues.swift */; };
 		CE2C940C2881CB1900BCD4CF /* Custom.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE2C940B2881CB1900BCD4CF /* Custom.storyboard */; };
+		CE2C94102881F19A00BCD4CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE2C940F2881F19500BCD4CF /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		CE2C94032881B3A700BCD4CF /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		CE2C94052881B72200BCD4CF /* PermanentValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermanentValues.swift; sourceTree = "<group>"; };
 		CE2C940B2881CB1900BCD4CF /* Custom.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Custom.storyboard; sourceTree = "<group>"; };
+		CE2C940F2881F19500BCD4CF /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				CE2C94052881B72200BCD4CF /* PermanentValues.swift */,
 				CE2C94032881B3A700BCD4CF /* GameView.swift */,
 				CE2C940B2881CB1900BCD4CF /* Custom.storyboard */,
+				CE2C940F2881F19500BCD4CF /* Main.storyboard */,
 				CE2C93F72881B28400BCD4CF /* Assets.xcassets */,
 				CE2C93F92881B28400BCD4CF /* Preview Content */,
 			);
@@ -140,6 +143,7 @@
 				CE2C93FB2881B28400BCD4CF /* Preview Assets.xcassets in Resources */,
 				CE2C93F82881B28400BCD4CF /* Assets.xcassets in Resources */,
 				CE2C940C2881CB1900BCD4CF /* Custom.storyboard in Resources */,
+				CE2C94102881F19A00BCD4CF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
