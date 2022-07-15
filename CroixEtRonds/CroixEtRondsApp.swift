@@ -11,7 +11,8 @@ import SwiftUI
 struct CroixEtRondsApp: App {
     var body: some Scene {
         WindowGroup {
-            IntroView()
+           IntroView()
+           
         }
     }
 }
